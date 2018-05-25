@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Union de 3 aplicaciones</title>
+  
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app8.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+  
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--  <script src="js/acciones.js"></script>  -->
+  <script src="phonegap.js"></script>
+  <style>
+   ul h2 {
+	   text-align:center;}
+	   ul h3 {
+	   text-align:center;}
+  </style>
+ </head>
+ 
+ <body>
+ 
+  <div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>App8 Aplicaciones recopiladas</h1>
+   </div>
+   
+  <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-b" align="center">
+    <li class="ui-first-child ui-last-child">
+    
+     <a href="index1.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r" target="_self">
+     <h2>App1</h2>
+     <h3>Datos del dispositivo</h3>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="index2.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r" target="_self">
+     <h2>App5 </h2>
+     <h3>Vibrar y Beepear</h3>
+     </a>
+    </li>
+   </ul>
+   </div>
+   
+   
+   <div style="width:100%;" align="center">
+   <ul data-role="controlgroup" data-type="vertical"data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="index3.html" data-role="button" target="_self">
+    <h2>App7 </h2>
+    <h3>Deslizar</h3>
+    </a>
+    </li>
+   </ul>
+   </div>
+   
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="54" height="57">
+    </div>
+    <div>
+     <h4>Aplicacion 8</h4>
+     <h4>Jose Luis  Grande Hernandez</h4>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
